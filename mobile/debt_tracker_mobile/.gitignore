@@ -1,0 +1,67 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# ================================
+# Flutter Mobile App
+# ================================
+mobile/debt_tracker_mobile/.dart_tool/
+mobile/debt_tracker_mobile/.flutter-plugins
+mobile/debt_tracker_mobile/.flutter-plugins-dependencies
+mobile/debt_tracker_mobile/.packages
+mobile/debt_tracker_mobile/.pub-cache/
+mobile/debt_tracker_mobile/.pub/
+mobile/debt_tracker_mobile/build/
+mobile/debt_tracker_mobile/ios/Pods/
+mobile/debt_tracker_mobile/ios/.symlinks/
+mobile/debt_tracker_mobile/ios/Flutter/App.framework
+mobile/debt_tracker_mobile/ios/Flutter/Flutter.framework
+mobile/debt_tracker_mobile/ios/Flutter/Generated.xcconfig
+mobile/debt_tracker_mobile/ios/Runner/GeneratedPluginRegistrant.*
+mobile/debt_tracker_mobile/android/.gradle
+mobile/debt_tracker_mobile/android/captures/
+mobile/debt_tracker_mobile/android/gradle-wrapper.jar
+mobile/debt_tracker_mobile/android/local.properties
+mobile/debt_tracker_mobile/android/key.properties
